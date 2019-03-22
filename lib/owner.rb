@@ -61,13 +61,14 @@ class Owner
       pets_array.each do |pet|
         pet.mood = "nervous"
       end 
+    end 
     @pets.clear 
     end 
     
   end 
   
   def list_pets 
-    "I have #{@pets[:fishes.size]} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
+    "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
   end 
   
   
