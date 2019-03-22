@@ -14,6 +14,9 @@ class Owner
     @@all.length 
   end 
   
+  def say_species
+    puts "I am a #{@species}."
+  
   def buy_cat(name) 
     @pets[:cats] << Cat.new(name)
   end 
